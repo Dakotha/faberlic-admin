@@ -51,7 +51,7 @@
                     <div>Adres: {{ orderDetails.address }}</div>
                     <hr>
                     <div>Produkty</div>
-                    <ul v-for="(product, index) in orderDetails.products" :key="product.index">
+                    <ul v-for="product in orderDetails.products" :key="product.productId">
                         <li>{{ product.productName }}</li>
                         <li>{{ product.productId }}</li>
                         <li>{{ product.productQuantity }}</li>

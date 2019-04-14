@@ -75,12 +75,12 @@ h2.section-title {
         font-weight: 700;
     }
 
-    &__body {
+    // &__body {
         
-    }
+    // }
 
-    &__footer {
+    // &__footer {
         
-    }
+    // }
 }
 </style>
